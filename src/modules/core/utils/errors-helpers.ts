@@ -44,11 +44,7 @@ class ServerError extends Error {
   }
 }
 
-export function errorsHandlers(
-  status: number,
-  errorMessage: string,
-  errorType?: string
-) {
+export function baseErrors(status: number, errorMessage: string, errorType?: string) {
   switch (status) {
     case 400:
       throw new BadRequestError(errorMessage, errorType)
