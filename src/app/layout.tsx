@@ -1,7 +1,7 @@
+import { ThemeProvider } from '@/contexts/commons'
 import { Montserrat } from 'next/font/google'
 import '../assets/styles/globals.css'
 import { ReactNode } from 'react'
-import { ThemeProvider } from '@/modules/core'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
