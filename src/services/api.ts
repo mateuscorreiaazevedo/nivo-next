@@ -1,5 +1,5 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios'
-import { env } from '@/main/config'
+import { env } from '@/config'
 
 type HttpRequest = {
   url: string
