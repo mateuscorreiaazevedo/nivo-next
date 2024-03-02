@@ -4,10 +4,12 @@ export default {
     beta: 'BETA',
   },
   locale: {
+    title: 'Idioma',
     'pt-br': 'Português/BR',
     en: 'English',
   },
   theme: {
+    title: 'Tema',
     light: 'Tema claro',
     dark: 'Tema escuro',
     system: 'Sistema',

@@ -6,8 +6,6 @@ import { Badge } from '@/components/ui/badge'
 import { Icon } from '@/components/ui/icons'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { fallbackFormat } from '@/utils/fallback-format'
-import { SwitchTheme } from '../switch-theme'
-import { SwitchLocale } from '../switch-locale'
 import { UserOptions } from './user-options'
 
 export const Header = () => {
@@ -31,9 +29,6 @@ export const Header = () => {
           <AvatarImage src={t('commons.avatar.src')} />
         </Avatar>
         <h4 className="text-sm font-medium">John Doe</h4>
-        <SwitchTheme />
-        <Icon name="Slash" className="-rotate-12 text-secondary-foreground" />
-        <SwitchLocale />
       </div>
       <UserOptions />
     </header>
