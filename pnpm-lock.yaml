@@ -110,10 +110,10 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: ^17.6.5
+    specifier: ^17.7.1
     version: 17.7.1
   '@commitlint/config-conventional':
-    specifier: ^17.6.5
+    specifier: ^17.7.0
     version: 17.7.0
   '@types/js-cookie':
     specifier: ^3.0.3
