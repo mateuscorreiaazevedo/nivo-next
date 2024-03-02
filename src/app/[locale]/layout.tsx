@@ -2,6 +2,7 @@ import { ThemeProvider } from '@/contexts/commons'
 import { Montserrat } from 'next/font/google'
 import '@/assets/styles/globals.css'
 import { ReactNode } from 'react'
+import { NextIntlClientProvider, useMessages } from 'next-intl'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -10,8 +11,8 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: '@mateuscorreiaazevedo',
-  description: 'My boilerplate using Next.js 13. Powered by Mateus Azevedo'
+  title: 'Nivo',
+  description: 'Nivo app for data list videos'
 }
 
 export default function RootLayout({
@@ -21,12 +22,15 @@ export default function RootLayout({
   children: ReactNode
   params: { locale: string }
 }) {
+  const messages = useMessages()
   return (
     <html lang={params.locale}>
       <body
         className={`${montserrat.variable} min-h-screen w-full bg-background font-sans text-foreground`}
       >
-        <ThemeProvider>{children}</ThemeProvider>
+        <NextIntlClientProvider locale={params.locale} messages={messages}>
+          <ThemeProvider>{children}</ThemeProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   )

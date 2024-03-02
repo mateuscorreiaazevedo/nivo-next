@@ -1,3 +1,6 @@
 {
-  "greeting": "Olá mundo!"
+  "greeting": "Olá mundo!",
+  "toggle": {
+    "locale": "Alterar idioma"
+  }
 }

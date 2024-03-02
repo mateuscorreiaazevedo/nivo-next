@@ -1,0 +1,6 @@
+{
+  "greeting": "Hello World!",
+  "toggle": {
+    "locale": "Change language"
+  }
+}
