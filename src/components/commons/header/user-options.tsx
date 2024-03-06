@@ -14,9 +14,11 @@ import { Icon } from '@/components/ui/icons'
 import React, { useState } from 'react'
 import { SwitchLocale } from './switch-locale'
 import { SwitchTheme } from './switch-theme'
+import { useTranslations } from 'next-intl'
 
 export const UserOptions = () => {
   const [open, setOpen] = useState(false)
+  const t = useTranslations()
 
   return (
     <DropdownMenu open={open} onOpenChange={() => setOpen(prev => !prev)}>
@@ -39,7 +41,7 @@ export const UserOptions = () => {
           />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="w-52">
         <DropdownMenuGroup>
           <SwitchLocale />
         </DropdownMenuGroup>
@@ -49,7 +51,7 @@ export const UserOptions = () => {
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
-          <DropdownMenuItem>Sair</DropdownMenuItem>
+          <DropdownMenuItem>{t('commons.exit')}</DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/nivo.iml" filepath="$PROJECT_DIR$/.idea/nivo.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/nivo-next.iml" filepath="$PROJECT_DIR$/.idea/nivo-next.iml" />
+>>>>>>> 64389e43d5d59eccbf877686b14159af7130f17e
     </modules>
   </component>
 </project>
