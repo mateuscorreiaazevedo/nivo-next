@@ -11,7 +11,7 @@ import {
 import { useTranslations } from 'next-intl'
 import { Icon } from '@/components/ui/icons'
 
-const themes = [
+const themes: SelectOption[] = [
   {
     label: 'light',
     value: 'light',
