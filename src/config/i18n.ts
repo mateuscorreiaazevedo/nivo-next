@@ -5,10 +5,9 @@ import { getRequestConfig } from 'next-intl/server'
 const locales = ['pt-br', 'en']
 
 export default getRequestConfig(async ({ locale }) => {
-  // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound()
 
   return {
-    messages: (await import(`../../messages/${locale}/index.ts`)).default
+    messages: (await import(`../../messages/${locale}/index.ts`)).default,
   }
 })

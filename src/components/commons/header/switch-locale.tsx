@@ -32,7 +32,7 @@ export const SwitchLocale = () => {
   return (
     <DropdownMenuSub>
       <DropdownMenuSubTrigger className="gap-2 text-base">
-        <Icon name="Languages" className="size-2" />
+        <Icon name="Languages" className="size-4" />
         {t('title')}
       </DropdownMenuSubTrigger>
       <DropdownMenuPortal>

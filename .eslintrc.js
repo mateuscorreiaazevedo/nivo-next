@@ -10,9 +10,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'eslint:recommended',
     'plugin:prettier/recommended',
+    'plugin:@next/next/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
+    parser: '@typescript-eslint/parser',
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true,
     },

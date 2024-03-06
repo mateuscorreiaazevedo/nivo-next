@@ -7,17 +7,17 @@ import { NextIntlClientProvider, useMessages } from 'next-intl'
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-sans',
-  fallback: ['sans serif']
+  fallback: ['sans serif'],
 })
 
 export const metadata = {
   title: 'Nivo',
-  description: 'Nivo app for data list videos'
+  description: 'Nivo app for data list videos',
 }
 
 export default function RootLayout({
   children,
-  params
+  params,
 }: {
   children: ReactNode
   params: { locale: string }

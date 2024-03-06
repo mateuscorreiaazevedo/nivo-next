@@ -43,7 +43,7 @@ export const SwitchTheme = () => {
         />
         <Icon
           name="Moon"
-          className="size-4 absolute bottom-1/2 left-2 translate-y-1/2 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+          className="absolute bottom-1/2 left-2 size-4 translate-y-1/2 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
         />
         <span className="text-sm">{t('title')}</span>
       </DropdownMenuSubTrigger>
