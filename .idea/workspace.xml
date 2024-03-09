@@ -5,18 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab3214f-70ab-4b22-a639-381effaa5129" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/(authenticated)/users/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/(authenticated)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/(authenticated)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/header/switch-locale.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/header/switch-locale.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -26,24 +36,31 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2dIFkLOMrfd8Rr3QrCSDyOZgoEo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;header&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mateus/www/nivo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.github.iguissouma.nxconsole.dontShowDeprecationNoticeAgain": "true",
+    "git-widget-placeholder": "header",
+    "last_opened_file_path": "//wsl.localhost/Debian/home/mateus/pontua/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "rearrange.code.on.save": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Space Code Reviews" show_stripe_button="false" />
@@ -51,7 +68,7 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Merge Requests" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19757435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21400626" />
       <window_info id="Commit" order="1" weight="0.19757435" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
@@ -61,7 +78,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.3302619" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3302619" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.31474298" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.32981223" />
@@ -85,6 +102,10 @@
       <workItem from="1709694623244" duration="549000" />
       <workItem from="1709695185682" duration="61000" />
       <workItem from="1709724319757" duration="257000" />
+      <workItem from="1709724875504" duration="121000" />
+      <workItem from="1709749813126" duration="780000" />
+      <workItem from="1709772850311" duration="66000" />
+      <workItem from="1709812189424" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="merge">
       <option name="closed" value="true" />

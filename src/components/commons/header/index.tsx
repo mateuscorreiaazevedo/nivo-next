@@ -15,7 +15,13 @@ export const Header = () => {
     <header className="mx-auto flex max-w-7xl items-center justify-between pb-4">
       <div className="flex items-center justify-center gap-3">
         <Anchor to="/" className="flex cursor-pointer items-center gap-2.5">
-          <Image src={image.nivo} alt={t('commons.logoAlt')} width={24} height={24} />
+          <Image
+            src={image.nivo}
+            alt={t('commons.logoAlt')}
+            title={t('commons.logoAlt')}
+            width={24}
+            height={24}
+          />
           <Badge variant={'secondary'} className="rounded-full">
             {t('commons.tags.beta')}
           </Badge>

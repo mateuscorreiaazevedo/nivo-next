@@ -26,7 +26,7 @@ export const SwitchLocale = () => {
   const handleChange = (value: string) => {
     const newPathname = pathname.replace(locale, value)
 
-    router.push(newPathname)
+    router.replace(newPathname)
   }
 
   return (
