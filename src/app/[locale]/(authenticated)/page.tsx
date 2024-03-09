@@ -1,9 +1,24 @@
-import { Anchor } from '@/components/commons/anchor'
+import { Button } from '@/components/ui/button'
+import { Icon } from '@/components/ui/icons'
 
-export default async function Home() {
+type HomeProps = {
+  searchParams: {
+    tab?: string
+  }
+}
+
+export default function Home({ searchParams }: HomeProps) {
+  const { tab } = searchParams
+
   return (
-    <div className={'flex flex-col gap-2'}>
-      <Anchor to={'/users'}>To users with Custom Link</Anchor>
-    </div>
+    <>
+      <section className="flex items-center gap-2">
+        <h1>{tab}</h1>
+        <Button className="h-fit w-fit gap-px rounded-full px-1.5 py-1">
+          <Icon name="Plus" className="size-4" />
+          Upload video
+        </Button>
+      </section>
+    </>
   )
 }
