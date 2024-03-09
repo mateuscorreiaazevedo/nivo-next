@@ -1,0 +1,3 @@
+type UserOptionsTriggerProps = {
+  open: boolean
+}
