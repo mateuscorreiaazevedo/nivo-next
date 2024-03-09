@@ -12,9 +12,9 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { Icon } from '@/components/ui/icons'
 import React, { useState } from 'react'
-import { SwitchLocale } from './switch-locale'
-import { SwitchTheme } from './switch-theme'
 import { useTranslations } from 'next-intl'
+import { SwitchTheme } from './switch-theme'
+import { SwitchLocale } from './switch-locale'
 
 export const UserOptions = () => {
   const [open, setOpen] = useState(false)
