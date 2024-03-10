@@ -9,7 +9,7 @@ export function useNavbar() {
   const handleAction = (tab: string | null) => {
     const query = queryString.stringify({ tab })
     const urlRouter = tab ? `${path}?${query}` : path
-    router.push(urlRouter)
+    router.replace(urlRouter)
   }
 
   return { tabActive, handleAction }

@@ -53,6 +53,7 @@ module.exports = {
     camelcase: 'off',
     'no-use-before-define': 'off',
     'no-undef': 'off',
+    'react/prop-types': 'off',
     'no-console': 'warn',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-inferrable-types': 'error',

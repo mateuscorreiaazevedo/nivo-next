@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button'
-import { Icon } from '@/components/ui/icons'
+import { SettingsContent } from '@/components/home/settings-content'
+import { TagsContent } from '@/components/home/tags-content'
 
 type HomeProps = {
   searchParams: {
@@ -10,15 +10,12 @@ type HomeProps = {
 export default function Home({ searchParams }: HomeProps) {
   const { tab } = searchParams
 
+  const tabContent: Record<string, JSX.Element> = {
+    tags: <TagsContent />,
+    settings: <SettingsContent />,
+  }
+
   return (
-    <>
-      <section className="flex items-center gap-2">
-        <h1>{tab}</h1>
-        <Button className="h-fit w-fit gap-px rounded-full px-1.5 py-1">
-          <Icon name="Plus" className="size-4" />
-          Upload video
-        </Button>
-      </section>
-    </>
+    <article className="w-full space-y-5">{tab ? tabContent[tab] : <></>}</article>
   )
 }

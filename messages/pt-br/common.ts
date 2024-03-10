@@ -27,4 +27,7 @@ export default {
       dev: 'Desenvolvedores',
     },
   },
+  buttons: {
+    export: 'Exportar',
+  },
 }
