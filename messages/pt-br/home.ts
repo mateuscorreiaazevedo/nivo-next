@@ -22,6 +22,12 @@ export default {
           edit: 'Editar',
           delete: 'Deletar',
         },
+        footer: {
+          text: 'Visualizando {itemsPerPage} itens de {total}',
+          rows: 'Linhas por página',
+          select: 'Selecione',
+          pagination: 'Página {current} de {total}',
+        },
       },
     },
     settings: {

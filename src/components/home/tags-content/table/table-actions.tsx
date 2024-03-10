@@ -17,7 +17,7 @@ export const TableActions = () => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant={'outline'} size={'icon'}>
-          <Icon name="Menu" className="size-4" />
+          <Icon name="MoreHorizontal" className="size-5" strokeWidth={2} />
           <span className="sr-only">{t('title')}</span>
         </Button>
       </DropdownMenuTrigger>

@@ -14,9 +14,9 @@ export function TableTagsBody({ data }: TableTagsBodyInterface) {
             <Checkbox id={item.id} />
             <span className="sr-only">{t('checkbox')}</span>
           </TableCell>
-          <TableCell align="char" className="flex w-full flex-col gap-y-2">
-            {item.title}
-            <span className="text-muted-foreground">{item.id}</span>
+          <TableCell align="char" className="flex w-full flex-col gap-y-0.5">
+            <span className="font-medium">{item.title}</span>
+            <span className="text-xs text-muted-foreground">{item.id}</span>
           </TableCell>
           <TableCell className="w-40 text-muted-foreground">
             {t('amount', { amount: item.amount })}

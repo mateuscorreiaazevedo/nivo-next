@@ -22,6 +22,12 @@ export default {
           edit: 'Edit',
           delete: 'Delete',
         },
+        footer: {
+          text: 'Showing {itemsPerPage} of {total} items',
+          rows: 'Rows per page',
+          select: 'Select',
+          pagination: 'Page {current} of {total}',
+        },
       },
     },
 

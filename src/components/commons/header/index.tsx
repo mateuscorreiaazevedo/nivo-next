@@ -12,7 +12,7 @@ export const Header = () => {
   const t = useTranslations('')
 
   return (
-    <header className="flex items-center justify-between pb-4">
+    <section className="flex items-center justify-between pb-4">
       <div className="flex items-center justify-center gap-3">
         <Anchor to="/" className="flex cursor-pointer items-center gap-2.5">
           <Image
@@ -37,6 +37,6 @@ export const Header = () => {
         <h4 className="text-sm font-medium">John Doe</h4>
       </div>
       <UserOptions />
-    </header>
+    </section>
   )
 }

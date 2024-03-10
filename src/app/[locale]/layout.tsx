@@ -24,7 +24,10 @@ export default function RootLayout({
 }) {
   const messages = useMessages()
   return (
-    <html lang={params.locale}>
+    <html
+      lang={params.locale}
+      className="scrollbar-thin scrollbar-track-transparent scrollbar-thumb-secondary scrollbar-corner-transparent scrollbar-track-rounded-full"
+    >
       <body
         className={`${montserrat.variable} min-h-screen w-full bg-background font-sans text-foreground`}
       >
