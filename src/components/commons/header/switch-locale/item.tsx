@@ -8,7 +8,9 @@ type Props = {
 
 export function SwitchLocaleItem({ handleChange, item }: Props) {
   const t = useTranslations('commons.locale')
-  return (
-    <DropdownMenuItem onClick={() => handleChange(item)}>{t(item)}</DropdownMenuItem>
-  )
+
+  const handleClick = () => {
+    handleChange(item)
+  }
+  return <DropdownMenuItem onClick={handleClick}>{t(item)}</DropdownMenuItem>
 }

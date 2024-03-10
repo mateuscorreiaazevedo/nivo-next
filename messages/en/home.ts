@@ -11,7 +11,16 @@ export default {
       table: {
         columns: {
           tag: 'Tag',
-          qtdVideos: 'Amount of videos',
+          amount: 'Amount of videos',
+        },
+        body: {
+          checkbox: 'select tag',
+          amount: '{amount} video(s)',
+        },
+        actions: {
+          title: 'Actions',
+          edit: 'Edit',
+          delete: 'Delete',
         },
       },
     },

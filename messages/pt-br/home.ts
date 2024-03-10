@@ -11,7 +11,16 @@ export default {
       table: {
         columns: {
           tag: 'Etiqueta',
-          qtdVideos: 'Quantidade de videos',
+          amount: 'Quantidade de videos',
+        },
+        body: {
+          checkbox: 'selecionar etiqueta',
+          amount: '{amount} vídeo(s)',
+        },
+        actions: {
+          title: 'Ações',
+          edit: 'Editar',
+          delete: 'Deletar',
         },
       },
     },
